@@ -20,22 +20,22 @@ public class Member implements User {
         this.saldo.add(200000);
     }
 
-    // Metode untuk menambahkan saldo
+    //menambahkan saldo
     public void setSaldo(int saldo) {
         this.saldo.add(saldo);
     }
 
-    // Metode untuk mendapatkan saldo berdasarkan idMember
+    //mendapatkan saldo berdasarkan idMember
     public int getSaldo(int idMember) {
         return this.saldo.get(idMember);
     }
 
-    // Metode untuk mengedit saldo berdasarkan idMember
+    //mengedit saldo berdasarkan idMember
     public void editSaldo(int idMember, int saldo) {
         this.saldo.set(idMember, saldo);
     }
 
-    // Metode untuk mendapatkan jumlah member
+    //mendapatkan jumlah member
     public int getJmlMember() {
         return this.saldo.size();
     }

@@ -14,17 +14,17 @@ public class Karyawan implements User {
         this.jabatan.add(0);
     }
 
-    // Metode untuk menambahkan jabatan
+    //menambahkan jabatan
     public void setJabatan(int jabatan) {
         this.jabatan.add(jabatan);
     }
 
-    // Metode untuk mendapatkan jabatan berdasarkan idKaryawan
+    //mendapatkan jabatan berdasarkan idKaryawan
     public int getJabatan(int id) {
         return this.jabatan.get(id);
     }
 
-    // Metode untuk mendapatkan jumlah karyawan
+    //mendapatkan jumlah karyawan
     public int getJmlKaryawan() {
         return this.namaKaryawan.size();
     }

@@ -20,42 +20,42 @@ public class Barang {
         this.harga.add(15000);
     }
 
-    // Metode untuk mendapatkan jumlah barang
+    // mendapatkan jumlah barang
     public int getJmlBarang() {
         return this.namaBarang.size();
     }
 
-    // Metode untuk menambahkan nama barang
+    //menambahkan nama barang
     public void setNamaBarang(String namaBarang) {
         this.namaBarang.add(namaBarang);
     }
 
-    // Metode untuk mendapatkan nama barang berdasarkan idBarang
+    //mendapatkan nama barang berdasarkan idBarang
     public String getNamaBarang(int idBarang) {
         return this.namaBarang.get(idBarang);
     }
 
-    // Metode untuk menambahkan stok barang
+    //menambahkan stok barang
     public void setStok(int stok) {
         this.stok.add(stok);
     }
 
-    // Metode untuk mendapatkan stok barang berdasarkan idBarang
+    //mendapatkan stok barang berdasarkan idBarang
     public int getStok(int idBarang) {
         return this.stok.get(idBarang);
     }
 
-    // Metode untuk mengedit stok barang berdasarkan idBarang
+    //mengedit stok barang berdasarkan idBarang
     public void editStok(int idBarang, int stok) {
         this.stok.set(idBarang, stok);
     }
 
-    // Metode untuk menambahkan harga barang
+    //menambahkan harga barang
     public void setHarga(int harga) {
         this.harga.add(harga);
     }
 
-    // Metode untuk mendapatkan harga barang berdasarkan idBarang
+    //mendapatkan harga barang berdasarkan idBarang
     public int getHarga(int idBarang) {
         return this.harga.get(idBarang);
     }

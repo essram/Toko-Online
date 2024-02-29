@@ -1,6 +1,6 @@
 public class Laporan {
       
-    // Metode untuk membuat laporan barang
+    //membuat laporan barang
     public void laporan(Barang barang) {
         int x = barang.getJmlBarang();
         
@@ -14,7 +14,7 @@ public class Laporan {
         }  
     } 
     
-    // Metode untuk membuat laporan member
+    //membuat laporan member
     public void laporan(Member member) {
         int x = member.getJmlMember();
         
@@ -29,7 +29,7 @@ public class Laporan {
         }  
     }  
     
-    // Metode untuk membuat laporan transaksi
+    //membuat laporan transaksi
     public void laporan(Transaksi transaksi, Barang barang) {
         int x = transaksi.getJmlTransaksi();
         
